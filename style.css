@@ -36,7 +36,12 @@ body {
     color: #fff;
     padding: 10px;
 }
-
+.kodarkafon{
+    background-color: rgb(206, 206, 206);
+}
+.cikti{
+    background-color: rgb(240, 229, 247);
+}
 .box:hover {
     background: #fff;
     color: #26425E;
@@ -46,7 +51,9 @@ body {
     background: #fff;
     border-bottom: 2px solid #CCC;
 }
-
+.genelyazi{
+    font-size: 19px;
+}
 .menu-ul {
     margin: 0;
     padding: 0;
@@ -118,6 +125,13 @@ body {
 
     height: 400px;
     padding-top: 100px;
+}
+.konubasliklari{
+        text-align: center;
+        color: rgb(195, 0, 255);
+    
+        height: 100px;
+        padding-top: 40px;
 }
 h1 {
     font-size: 80px;
