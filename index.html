@@ -24,15 +24,21 @@
         <h4><b>21703903 Ali Alizada</b></h4>
     </div>
 </div>
-
 <div class="arakesici"><div class="container">
 </div></div>
 <div class="container">
     <div >
         <div>
-            <p><br>Bootstrap 4 tablo sınıfları ile tablolarımıza saniyeler içinde profesyonel bir görüntü katabiliriz.
+          <div class="konubasliklari"><h2><b>bootstrap nedir ?</b></h2></div>
+            <div><p class="genelyazi">Bootstrap tasarlanacak web sitelerinin tablet, telefon, bilgisayar gibi her türlü ekran çözünürlüğüne duyarlı olacak şekilde ayarlamaya yarayan açık kaynak kodlu bir framework olarak tanımlanabilir. Bir web sitesi tasarımında, ihtiyaç duyulan tüm faktörlerin düşünüldüğü ve hazır hale getirildiği bir yapıdır. İçerisinde hazır tablo, etiket, buton, açılan menü ve navigasyon bulunur ve bu sayede kolayca responsive yapılabilir.Bootstrap içerisinde CSS kodları bulunur ve böylece hazır element ve objelere istenildiği gibi müdahale edilebilir. Diğer frameworklerden farkı ise grid sistemini bulundurmasıdır. Grid, ızgara sistemi anlamına gelen ve responsive web sitesi yapmak için kolaylık sağlayan bir sistemdir. Yani web sayfanızı eşit ölçülerde ızgaralara bölebilir ve böylece ekran çözünürlüğü düştükçe sayfanızın konumlanmasını istediğiniz şekilde tasarlayabilirsiniz.</p></div>
+            <div class="arakesici"><div class="container"></div>
+              </div></div>
+          <div class="konubasliklari"><h2><b>bootstrap tablo kullanimi</b></h2></div>
+          <div><p class="genelyazi">Tablo sınıfları ile tablolara saniyeler içinde profesyonel bir görüntü katmak icin cok kolay ve praktikdir.</p></div>
+          <P class="genelyazi">Bir tabloya diğer class’ları eklemeden önce, en temel gerekli stilleri vermek için table etiketinin class’ına table yazıyoruz. Bunu yazdığımızda tablomuza padding değeri vermiş ve yatay çizgileri eklemiş oluruz.</P>
+          <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+          <div class="kodarkafon">
                 <xmp>
-                    <div>1. kod bloğu</div>
                     <table class="table">
                         <thead>
                           <tr>
@@ -49,10 +55,16 @@
                             <td>Hücre 3</td>
                             <td>Hücre 4</td>
                           </tr>
+                          <tr>
+                            <td>Hücre 5</td>
+                            <td>Hücre 6</td>
+                          </tr>
                         </tbody>
                     </table>
                 </xmp>
-                <div>1. kod bloğu</div>
+              </div>
+              <p class="genelyazi"><b> CIKTISI:</b></p>
+              <div class="cikti">
                 <table class="table">
                     <thead>
                       <tr>
@@ -69,10 +81,234 @@
                         <td>Hücre 3</td>
                         <td>Hücre 4</td>
                       </tr>
+                      <tr>
+                        <td>Hücre 5</td>
+                        <td>Hücre 6</td>
+                      </tr>
                     </tbody>
                 </table>
+              </div>
             </p>
-        </div>
+
+
+            <br><br><br>
+            <div class="arakesici"><div class="container"></div>
+          </div></div>
+          <br><br><br>
+          <P class="genelyazi">Tabloya padding değeri verip yatay çizgileri ekledik. Tablonun satırlarının farklı renklerde olması için yani zebra görünümü elde etmek için, table etiketinin class’ına table-striped yazıyoruz.</P>
+          <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+          <div class="kodarkafon">
+            <xmp>>
+                <table class="table table-striped">
+                  "İçerik"
+                </table>
+            </xmp>
+          </div>
+          <p class="genelyazi"><b> CIKTISI:</b></p>
+              <div class="cikti">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Başlık 1</th>
+                        <th>Başlık 2</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Hücre 1</td>
+                        <td>Hücre 2</td>
+                      </tr>
+                      <tr>
+                        <td>Hücre 3</td>
+                        <td>Hücre 4</td>
+                      </tr>
+                      <tr>
+                        <td>Hücre 5</td>
+                        <td>Hücre 6</td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+            </p>
+
+
+            <div>
+              <br><br><br>
+            <div class="arakesici"><div class="container"></div>
+          </div></div>
+          <br><br><br>
+          <P class="genelyazi">Tabloda hangi satırın üzerinde olduğumuzu belirgin hale getirmek için hover efektini kullanabiliriz. Bunun için, table etiketinin class’ına table-hover yazıyoruz.Fareyi tablenin uzerine getirerek farki gorebilirsiniz.</P>
+          <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+          <div class="kodarkafon">
+            <xmp>
+              <table class="table table-striped table-hover">
+                "İçerik"
+              </table>
+            </xmp>
+          </div>
+          <p class="genelyazi"><b> CIKTISI:</b></p>
+          <div class="cikti">
+            <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th>Başlık 1</th>
+                    <th>Başlık 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Hücre 1</td>
+                    <td>Hücre 2</td>
+                  </tr>
+                  <tr>
+                    <td>Hücre 3</td>
+                    <td>Hücre 4</td>
+                  </tr>
+                  <tr>
+                    <td>Hücre 5</td>
+                    <td>Hücre 6</td>
+                  </tr>
+                </tbody>
+            </table>
+          </div>
+        </p>
+
+        <div>
+          <br><br><br>
+        <div class="arakesici"><div class="container"></div>
+      </div></div>
+      <br><br><br>
+      <P class="genelyazi">Tablonun padding değerini azaltarak daha küçük bir tablo elde edebiliriz. Bunun için, table etiketinin class’ına table-sm yazıyoruz.  </P>
+      <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+      <div class="kodarkafon">
+        <xmp>
+          <table class="table table-striped table-hover">
+            "İçerik"
+          </table>
+        </xmp>
+      </div>
+      <p class="genelyazi"><b> CIKTISI:</b></p>
+      <div class="cikti">
+        <table class="table table-striped table-bordered table-sm">
+
+            <thead>
+              <tr>
+                <th>Başlık 1</th>
+                <th>Başlık 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hücre 1</td>
+                <td>Hücre 2</td>
+              </tr>
+              <tr>
+                <td>Hücre 3</td>
+                <td>Hücre 4</td>
+              </tr>
+              <tr>
+                <td>Hücre 5</td>
+                <td>Hücre 6</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </p>
+    
+
+      <div>
+        <br><br><br>
+      <div class="arakesici"><div class="container"></div>
+    </div></div>
+    <br><br><br>
+    <P class="genelyazi">Bootstrap 4’te tablolar ile kullanabileceğimiz bazı renk class’ları vardır. Bu class’ları table, tr veya td etiketlerine vererek ister tablonun ister satırın istersek de kolonun arkaplan rengini değiştirebiliriz. <br> Bu renk class’ları şunlardır: <br><b> table-secondary ,table-success, table-danger, table-warning, table-info, table-light, table-dark</b><br>Örneğin siyah renkli arkaplana sahip bir tablo elde etmek için, table etiketinin class’ına table-dark yazıyoruz. 
+    </P>
+    <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+    <div class="kodarkafon">
+      <xmp>
+        <table class="table table-striped table-dark">
+          "İçerik"
+        </table>
+      </xmp>
+    </div>
+    <p class="genelyazi"><b> CIKTISI:</b></p>
+    <div class="cikti">
+      <table class="table table-striped  table-dark">
+          <thead>
+            <tr>
+              <th>Başlık 1</th>
+              <th>Başlık 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hücre 1</td>
+              <td>Hücre 2</td>
+            </tr>
+            <tr>
+              <td>Hücre 3</td>
+              <td>Hücre 4</td>
+            </tr>
+            <tr>
+              <td>Hücre 5</td>
+              <td>Hücre 6</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </p>
+  <div>
+    <br><br><br>
+      <div class="arakesici"><div class="container"></div>
+      </div></div>
+      <br><br><br>
+      <P class="genelyazi">Tablonun başlıklarının bulunduğu satır yani thead etiketinin class’ına thead-dark yazarsak siyah bir arkaplan rengi ekler. Eğer thead etiketinin class’ına thead-light yazarsak gri bir arkaplan rengi ekler. 
+      </P>
+      <p class="genelyazi"><b> KOD ORNEGI:</b></p>
+      <div class="kodarkafon">
+      <xmp>
+        <table class="table">
+            <thead class="thead-dark">
+            </thead>
+            <tbody>
+              "İçerik"
+            </tbody>
+        </table>
+      </xmp>
+      </div>
+      <p class="genelyazi"><b> CIKTISI:</b></p>
+      <div class="cikti">
+      <table class="table">
+        <thead class="thead-dark">  
+          <thead>
+            <tr>
+              <th>Başlık 1</th>
+              <th>Başlık 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hücre 1</td>
+              <td>Hücre 2</td>
+            </tr>
+            <tr>
+              <td>Hücre 3</td>
+              <td>Hücre 4</td>
+            </tr>
+            <tr>
+              <td>Hücre 5</td>
+              <td>Hücre 6</td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      </p>
+
+
+            </div>
+            
+          </div>
+          
     </div>
 
     <div class="right">
@@ -89,6 +325,6 @@
         </div>
         <div class="clear"></div>
     </footer>
-</center>
+    </center>
 </body>
 </html>
