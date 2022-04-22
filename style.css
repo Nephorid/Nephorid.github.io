@@ -32,19 +32,11 @@ body {
     margin: 0;
 }
 
-.box {
-    color: #fff;
-    padding: 10px;
-}
 .kodarkafon{
     background-color: rgb(206, 206, 206);
 }
 .cikti{
     background-color: rgb(240, 229, 247);
-}
-.box:hover {
-    background: #fff;
-    color: #26425E;
 }
 
 .arakesici {
@@ -54,68 +46,11 @@ body {
 .genelyazi{
     font-size: 19px;
 }
-.menu-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.menu-ul>a {
-    color: #000
-}
-
-.menu-ul>a:hover {
-    color: #cc181e
-}
-
-.menu-li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 13px 10px 10px 10px;
-    border-bottom: 3px solid #fff
-}
-
-.menu-li:hover {
-    border-bottom: 3px solid #cc181e
-}
 
 .bolum {
     height: 10px;
 }
-
-.button {
-    border-radius: 4px;
-    background-color: #BFBFBF;
-    color: #625A5A;
-    display: inline-block;
-    font-weight: bold;
-    padding:3px 9px 5px 9px; 
-    transition: all .3s;
-}
-
-.button:hover {
-    background-color: #6C7A89;
-    color: #DAE1E7;
-}
-
-.leftp {
-    padding: 10px;
-}
-
-.rightp {
-    padding: 10px;
-}
-
-.left {
-    width: 100%;
-    float: left;
-    background-color: #fff;
-}
-
-.right {
-    width: 30%;
-    float: left;
-}
-
+    
 .baslik {
     height: 300px;
 }
@@ -166,12 +101,6 @@ h1 span{
 }
 
 
-input:focus {
-    width: 300px;
-    border-bottom: 1px solid #cc181e;
-    color: #fff;
-}
-
 header>.container {}
 
 .container {
@@ -180,15 +109,6 @@ header>.container {}
     max-width: 1400px
 }
 
-a {
-    color: #645D5A;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #6C7A89;
-    text-decoration: underline;
-}
 
 .column-25 {
     width: 50%;
@@ -220,20 +140,3 @@ span {
     display: inline-block;
     position: relative;
 }
-
-.line:before,
-.line:after {
-    content: '';
-    color: #fff;
-    border: 1px solid;
-    position: absolute;
-    right: 100%;
-    margin-right: 10px;
-    top: 9px;
-    width: 20px;
-}
-
-.line:before {
-    left: 100%;
-    margin-left: 10px;
-}   
